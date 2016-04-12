@@ -22,3 +22,35 @@ body, input {
 }
 
 textarea, input, div, button { outline: none; }
+
+.controls {
+  background-color: rgb(220, 241, 240);
+  padding: 1em;
+}
+
+.files {
+  display: flex;
+  height: 100%;
+}
+
+.file-list {
+  background-color: rgb(226, 248, 247);
+  height: 100vh;
+  width: 300px;
+  border-right: 1px solid rgb(220, 241, 240);
+}
+
+.file-list-item {
+  background-color: rgb(240, 248, 247);
+  border-bottom: 1px solid rgb(220, 241, 240);
+  padding: 5px;
+  font-weight: 300;
+}
+
+.file-list-item-title {
+  font-weight: 600;
+}
+
+.active-file {
+  padding: 1em;
+}
